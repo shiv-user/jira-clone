@@ -1,0 +1,56 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/21.2.0/bin/node /usr/local/bin/yarn set version stable
+
+PATH: 
+  /Users/shivampandey/.rvm/gems/ruby-3.0.0/bin:/Users/shivampandey/.rvm/gems/ruby-3.0.0@global/bin:/Users/shivampandey/.rvm/rubies/ruby-3.0.0/bin:/opt/homebrew/opt/openssl@3/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Users/shivampandey/Library/Android/sdk/emulator:/Users/shivampandey/Library/Android/sdk/tools:/Users/shivampandey/Library/Android/sdk/tools/bin:/Users/shivampandey/Library/Android/sdk/platform-tools:/Users/shivampandey/.rvm/bin:/Users/shivampandey/.rvm/bin:/Users/shivampandey/Documents/apache-maven-3.9.3/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  21.2.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: Release not found: stable
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:89857:17
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+npm manifest: 
+  {
+    "name": "jira-clone",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "react": "^18",
+      "react-dom": "^18",
+      "next": "14.2.14"
+    },
+    "devDependencies": {
+      "typescript": "^5",
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "postcss": "^8",
+      "tailwindcss": "^3.4.1",
+      "eslint": "^8",
+      "eslint-config-next": "14.2.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
